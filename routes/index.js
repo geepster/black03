@@ -12,7 +12,7 @@ router.get('/dashboard', function(req, res, next) {
     res.render('dashboard', { title: 'Express' });
 });
 
-router.post('/dashboard', function (req, git init res, next) {
+router.post('/dashboard', function (req, res, next) {
     var email = req.body.email;
     var pass = req.body.pass;
     console.log('Username: ' + email);
